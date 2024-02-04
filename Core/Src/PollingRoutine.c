@@ -107,7 +107,6 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 		if(Size == DATA_SIZE)
 		{
 			RingBuff_Ptr_Input(&uart_data.ptr);
-			UART_EnInt();
 		}
 		UART_EnInt();
 	}
