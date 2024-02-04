@@ -1,0 +1,30 @@
+# .gitignore file
+
+# MPLAB X IDE (Netbeans) specific
+.launches/
+.settings/
+Debug/
+Release/
+targetConfigs
+driverlib/ccs/
+driverlib/ewarm/
+driverlib/gcc/
+driverlib/rvmdk/
+
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executables
+*.exe
+
+
+# KDE specific
+.directory
+
+# Misc
+.svn
+*.bak
